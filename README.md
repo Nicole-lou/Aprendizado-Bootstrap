@@ -1,2 +1,2 @@
 # Aprendizado Bootstrap
-Formatações do Bootstrap das aulas online Udemy 
+Aprendendo a utilizar Bootstrap para responsividade de website
