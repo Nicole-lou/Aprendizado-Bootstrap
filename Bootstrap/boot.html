@@ -10,6 +10,7 @@
 
   </head>
   <body style="margin-bottom: 200px; padding: 16px;">
+    <!--Estou usando o Bootstrap 5.3.7-->
 
     <!--formatação de texto no bootstrap diferentes tamanhos ja predefinidos -->
     <h1>Cabeçalho 1</h1>
@@ -18,6 +19,16 @@
     <h4>Cabeçalho 4</h4>
     <h5 class="h1">Cabeçalho 5</h5> <!-- o h5 vai ter o mesmo tamanho do h1 -->
     <h6>Cabeçalho 6</h6>
+
+    <br>
+    <br>
+    <!--Outro Jeito de formatação de texto de título e tamanho é colocando na classe -->
+    <p class="fs-1"> texto 1</p>
+    <p class="fs-2">texto 2</p>
+    <p class="fs-3"> texto 3</p>
+    <p class="fs-4"> texto 4</p>
+    <p class="fs-5"> texto 5</p>
+    <p class="fs-6"> texto 6</p>
 
     <br>
     <br>
@@ -39,18 +50,77 @@
     <br>
 
     <!--parágrafo monospace - mono espaçada - padrão de letras que era utilizado em máquinas de escrever-->
-    <p class="text-monospace">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi voluptatibus pariatur nobis laboriosam voluptas officia ipsum dolores soluta iusto iure provident quibusdam aspernatur repudiandae neque consequatur, asperiores facere vero magnam.</p>
+    <p class="font-monospace">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi voluptatibus pariatur nobis laboriosam voluptas officia ipsum dolores soluta iusto iure provident quibusdam aspernatur repudiandae neque consequatur, asperiores facere vero magnam.</p>
 
     <br>
     <br>
 
     <!--classes de estilo-->
-    <p>Texto normal</p>
-    <p>Texto negrito</p>
-    <p>Texto itálico</p>
+    <p class="fw-normal">Texto normal</p>
+    <p class="fw-bold">Texto negrito</p>
+    <p class="fst-italic">Texto itálico</p>
+
+    <br>
+    <br>
+
+    <!--Transformação de texto-->
+    <p class="text-uppercase">Letras Maiúsculas</p>
+    <p class="text-lowercase">Letras Minúsculas</p>
+    <p class="text-capitalize">primeira maiúscula</p>
+
+    <br>
+    <br>
+
+    <!--Alinhamento de texto-->
+    <p class="text-start">Direita</p>
+    <p class="text-end">Esquerda</p>
+    <p class="text-center">Centralizado</p>
+
+    <br>
+    <br>
+
+    <!--truncate corta o texto..-->
+    <p class="text-truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis incidunt aliquid commodi, praesentium possimus sit voluptate voluptas quaerat. Officia excepturi libero assumenda dolorum, repellendus maiores repellat veritatis doloribus vitae sapiente?</p>
+
+    <br>
+    <br>
+
+    <!--lista sem estilo-->
+    <ul class="list-unstyled">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <!--lista Inline-->
+    <ul class="list-inline">
+        <li class="list-inline-item">Item 1</li>
+        <li class="list-inline-item">Item 2</li>
+        <li class="list-inline-item">Item 3</li>
+    </ul>
 
 
+    <br>
+    <br>
 
+    <!--bloco de citação-->
+    <blockquote class="blockquote text-center">
+        <p>Esse é um bloco de citação</p>
+    </blockquote>
+   
+    <!--bloco de citação com footer, rodapé a esquerda com blockquote text end e rodapé a direita com blockquote-footer-->
+
+    <blockquote class="blockquote text-end">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam numquam ex debitis tenetur reiciendis quod perspiciatis quaerat aliquid veritatis harum omnis molestiae facere dignissimos inventore, fuga perferendis officiis illo reprehenderit!</p>
+      <footer class="blockquote-footer">Por
+
+        <cite title="nome">Nicole</cite>
+
+      </footer>
+
+    </blockquote>
+
+    
 
 
 
